@@ -2,6 +2,8 @@
 var express = require('express');
 var router = express.Router();
 
+/*GET PAGE SECTION*/
+
 /* GET home page. */
 router.get('/', function (req, res) {
     res.render('index', { title: 'Michael Galos', subtitle: 'Welcome to My First Assignment'});
@@ -14,7 +16,7 @@ router.get('/about', function (req, res) {
 
 /* GET services page. */
 router.get('/projects', function (req, res) {
-    res.render('projects', { title: 'Projects' });
+    res.render('projects', { title: 'Projects', subtitle: 'Check out my previous work on github'});
 });
 
 /* GET about page. */

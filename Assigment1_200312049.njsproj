@@ -38,6 +38,9 @@
     <Content Include="views\about.pug">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="views\contact.pug">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
@@ -45,6 +48,12 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\partials\header.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\projects.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\services.pug">
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>
